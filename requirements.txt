@@ -1,6 +1,4 @@
-Django==1.11.15
-six==1.11.0
-stevedore==1.29.0
-virtualenv==16.0.0
-virtualenv-clone==0.3.0
-virtualenvwrapper==4.8.2
+Django==2.1
+Jinja2==2.10
+MarkupSafe==1.0
+pytz==2018.5
