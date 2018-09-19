@@ -2,8 +2,10 @@
 from __future__ import unicode_literals
 
 from jinja2 import Environment, FileSystemLoader
-from django.shortcuts import render_to_response
+from django.http import Http404
+from django.shortcuts import render
 
 def index(request):
+    print('hey')
     import ipdb; ipdb.set_trace()
-    render_to_response('test.html')
+    return render(request, 'test.html', {})
