@@ -6,6 +6,4 @@ from django.http import Http404
 from django.shortcuts import render
 
 def index(request):
-    print('hey')
-    import ipdb; ipdb.set_trace()
     return render(request, 'test.html', {})
