@@ -12,5 +12,5 @@ fi
 # make pip requirements
 pip install -r requirements.txt $@
 
-# runserver 
-cd app && python manage.py runserver $@
+# runserver
+cd the_formal_wear && python manage.py runserver $@

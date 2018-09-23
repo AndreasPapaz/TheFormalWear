@@ -36,7 +36,7 @@ export PROJECT_HOME=$HOME/Devel
 source /usr/local/bin/virtualenvwrapper.sh
 ```
 
-## now create a virtual env
+## now create a virtual env `mkvirtualenv -p python3 "app_name"`
 use `workon` to create a new virtual env and name it what ever you want
 
 then......
