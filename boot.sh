@@ -12,5 +12,9 @@ fi
 # make pip requirements
 pip install -r requirements.txt $@
 
+# build react app
+cd app/frontend; npm run build $@
+
 # runserver
-cd the_formal_wear && python manage.py runserver $@
+# cd app && python manpy runserver $@
+cd ~/TheFormalWear/app && python manage.py runserver --settings=backend.prod_settings $@
