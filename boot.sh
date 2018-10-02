@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo "====================="
-echo "1401: THE FORMAL WEAR"
+echo " 1401: FORMAL WHERE  "
 echo "====================="
 
 if ! hash node 2>/dev/null; then
