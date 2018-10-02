@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>FormalWhere</title>
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    </head>
+    <body>
+      <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Our Collection</a>
+        <a href="#">How it works</a>
+      </div>
+      {% block content %}
+      {% endblock content %}
+    </body>
+</html>
